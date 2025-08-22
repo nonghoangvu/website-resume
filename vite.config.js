@@ -10,6 +10,6 @@ export default defineConfig({
     port: 80,
   },
   resolve: {
-    alias: [{ find: "~", replacement: "/src" }],
+    alias: [{ find: "~", replacement: "/src", '@mui/material/utils': '@mui/utils' }],
   },
 });
